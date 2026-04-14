@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-50;
+}
+
+.tutor-card {
+  @apply bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-4;
+}
+
+.message-bubble {
+  @apply rounded-lg px-4 py-3 max-w-md;
+}
+
+.user-message {
+  @apply bg-blue-500 text-white;
+}
+
+.assistant-message {
+  @apply bg-gray-200 text-gray-900;
+}
